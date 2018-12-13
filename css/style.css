@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 /*inicio da Home*/
 
 header img {
@@ -34,6 +33,7 @@ header {
 #home li {
  list-style: none;
 }
+
 .title {
     display: flex;
     justify-content: center;
@@ -54,6 +54,7 @@ header {
 
     
 }
+
 .iconesh {
     background-color: rgba(0, 162, 254, 0.8);
     border: solid;
@@ -85,8 +86,7 @@ nav img {
     background-color: #0d4382;
 }
 
-.sobre p,
-h1 {
+.sobre p,h1 {
     text-align: center;
     font-size: 25px;
     font-family: Glacial;
@@ -129,12 +129,12 @@ h1 {
     margin-top: 50px;
     margin-bottom: 25px;
 }
+
 .enviar{
     margin: 24px;
 }
 
 .blocoform form {
-    /*padding-left: 50px;*/
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -146,7 +146,6 @@ h1 {
     font-size: 20px;
 }
 
-
 .blocomap {
     background-color: rgba(9, 34, 48, 0.7);
     padding:10px;
@@ -154,10 +153,12 @@ h1 {
    margin-top:50px;
    margin-bottom: 25px;
 }
+
 iframe {
     width: 350px;
     height: 350px;
 }
+
 .rodape input[type=submit] {
     border-radius: 5px;
     border: 1px solid #333;
@@ -167,11 +168,9 @@ iframe {
     width: 46px;
     margin: 24px;
 }
-
 /*the end*/
 
 /*inicio do crie*/
-
 .txth1 h1 {
     font-family: Glacial;
     font-size: 35px;
@@ -192,14 +191,18 @@ iframe {
     background-color: #00c9e5;
     width: 400px;
     box-shadow: -1px +5px 10px;
-    margin-top: 30px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
    
 }
-.numero2, .numero3, .numero4, .numero5{    
+
+.numero2, .numero3, .numero4 {    
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
+    width: 400px;
+    box-shadow: -1px +5px 7px;
+    margin-top: 5px;
 }
 
 .numero1 img{
@@ -207,55 +210,51 @@ iframe {
     height: 40px;
     padding: 8px;
 }
+
+.numero2 {
+    background-color: #00aac2;
+}
+
 .numero2 img{
     width: 40px;
     height: 40px;
     padding: 8px;
 }
+
+.numero3 {
+    background-color: #007c8e;
+}
+
 .numero3 img{
     width: 40px;
     height: 40px;
     padding: 8px;
 }
+
+.numero4 {
+    background-color: #196584;
+}
+
 .numero4 img{
     width: 40px;
     height: 40px;
     padding: 8px;
 }
-.numero5 img{
-    width: 40px;
-    height: 40px;
-    padding: 8px;
-}
-
-.numero2 {
-    background-color: #00aac2;
-    box-shadow: -1px +5px 7px;
-    width: 400px;
-    margin-top: 5px;
-    
-}
-
-.numero3 {
-    background-color: #007c8e;
-    width: 400px;
-    box-shadow: -1px +5px 7px;
-    margin-top: 5px;
-}
-
-.numero4 {
-    background-color: #196584;
-    width: 400px;
-    box-shadow: -1px +5px 7px;
-    margin-top: 5px;
-}
 
 .numero5 {
+    display: flex;
+    flex-direction: row; 
     background-color: #134e66;
     width: 400px;
     box-shadow: -1px +5px 7px;
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.numero5 img{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
 }
 
 .blocos1 {
@@ -267,11 +266,13 @@ iframe {
     margin-top: 70px;
     margin-bottom: 50px;
 }
+
 video {
     width: 500px;
     height: 300px;
 }
 /*the end*/
+
 /*inicio do baixe*/
 .baixe{
     background-color: rgba(0, 172, 196, 0.9);
@@ -279,15 +280,21 @@ video {
     display: flex;
     flex-direction: column;
 }
+
+.baixe p {
+    text-align: center;
+}
+
 .single-item{
     margin-top: px;
 }
+
 .passo1, .passo2, .passo3, .passo4, .passo5 {
     color: white;
     font-family: Glacial;
 font-size: 20px;
 }
-
+/*fim do baixe*/
 
 /*inicio do footer*/
 
@@ -301,10 +308,12 @@ footer {
     padding-top: 30px;
     padding-bottom: 20px;
 }
+
 .footer1 img {
     width: 200px;
     height: 100px;
 }
+
 footer p {
     font-family: Glacial;
     color: #fff;
@@ -315,6 +324,7 @@ footer p {
 .footer2 p {
     color: #00acc4;
 }
+
 .footer2 {
     background-color: #092230;
     display: flex;
@@ -410,7 +420,7 @@ nav input {
 }
 
 input:checked~ul {
-    left:660px;
+    left:50vw;
     opacity: 1;
 }
 
@@ -431,7 +441,6 @@ input:checked~label .hamburguer:after {
     transform: rotate(90deg);
     bottom: 0px;
 }
-
 /*fim do botão*/
 
 @font-face {
@@ -448,32 +457,33 @@ input:checked~label .hamburguer:after {
     /*home*/
     
     /*fim da home*/
+
     /*botão*/
     nav {
         display: flex;
         justify-content: flex-start;
     }
+
 nav img {
     margin-left:15px;
 }
-    input:checked~ul {
-        left: 180px;
-    }
     /*fim do botão*/
+
     /*contato*/
     #bloco{
         flex-direction: column;
         align-items: center;
     }
+
     iframe{
         width: 300px;
         height: 300px;
     }
+
     .blocoform {
         width: 300px;
         height: 500px; 
     }  
-
 
     .blocoform {
     background-color: rgba(9, 34, 48, 0.7);
@@ -483,33 +493,41 @@ nav img {
     margin-top: 70px;
     margin-bottom: 20px; }
 /*fim do contato*/
+
 /*crie*/
     .video{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
     }
+
     .videoetuto {
         flex-direction: column-reverse;
         align-items: center;
     }
+
     video {
-        width: 310px;
-        height: 180px;
+        width: 330px;
+        height: 200px;
+        margin:5px;
     }
+
     .numero1, .numero2, .numero3, .numero4, .numero5 {
         width: 350px;
     }
     /*fim do crie*/
+
     /*sobre*/
     .sobre p {
         font-size: 19px;
     }
     /*fim do sobre*/
+
     /*footer*/
     footer {
         margin: 1px;
     }
+
     .footer1{
         display: flex;
         flex-direction: column;
@@ -517,29 +535,35 @@ nav img {
         padding-top: 20px;
         padding-bottom: 10px;
     }
+
     .footer2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
     .footer1 p {
         font-size: 22px;
         text-align: center;
     }
+
     .footer2 p {
         color: #00acc4;
         font-size: 19px;
         text-align: center;
     }
+
     .footer1, .footer2 {
         margin-top: 2px;
     }
+
     .footer1 img {
 width: 160px;
 height:80px;
 margin-top:40px;
 padding-bottom: 1px;
     }
+
     .botaogp {
         margin-top: 40px;
     }
