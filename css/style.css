@@ -15,15 +15,10 @@ header {
     justify-content: center;
 }
 
-.iconesh img {
-    width: 90px;
-    height: 90px;
-    margin-left: 18px;
-}
+
 
 #home  {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     background-image: url(../img/background-home.jpg);
     background-size: cover;
@@ -55,16 +50,6 @@ header {
     
 }
 
-.iconesh {
-    background-color: rgba(0, 162, 254, 0.8);
-    border: solid;
-    border-color: white;
-    border-radius: 10px;
-    width: 190px;
-    height: 180px;
-    margin-top: 160px;
-    box-shadow: 5px 5px 4px;
-}
 
 
 /*the end*/
@@ -449,13 +434,51 @@ input:checked~label .hamburguer:after {
 }
 
 @media only screen and (min-width: 576px){
-   
+    /*home*/
+    .iconesh {
+        background-color: rgba(0, 162, 254, 0.8);
+        border: solid;
+        border-color: white;
+        border-radius: 10px;
+        width: 190px;
+        height: 180px;
+        margin-top: 160px;
+        box-shadow: 5px 5px 4px;
+        margin-left: 35px;
+    }
+    .ordemh{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .iconesh img {
+        width: 90px;
+        height: 90px;
+    }
+    
 
 
 }
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 904px){
     /*home*/
-    
+    .ordemh{
+        flex-direction: column;
+    }
+    .iconesh {
+        background-color: rgba(0, 162, 254, 0.8);
+        border: solid;
+        border-color: white;
+        border-radius: 10px;
+        width: 115px;
+        height: 105px;
+        box-shadow: 5px 5px 4px;
+        margin-top: 13px;
+    }
+    .iconesh img {
+        width: 50px;
+        height: 50px;
+    }
+
     /*fim da home*/
 
     /*botão*/
