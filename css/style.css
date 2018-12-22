@@ -239,10 +239,6 @@ iframe {
     background-image: url(../img/background-crie.jpg);
     background-size: cover;
 }
-video {
-    width: 500px;
-    height: 300px;
-}
 /*the end*/
 
 /*inicio do baixe*/
@@ -509,18 +505,12 @@ input:checked~label .hamburguer:after {
         align-items: center;
         margin-bottom: 20px;
     }
+ 
 
     .videoetuto {
         flex-direction: column-reverse;
         align-items: center;
     }
-
-    video {
-        width: 330px;
-        height: 200px;
-        margin:5px;
-    }
-
     .numero1, .numero2, .numero3, .numero4, .numero5 {
         width: 350px;
     }
